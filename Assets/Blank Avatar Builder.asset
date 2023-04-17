@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5489afe110374609b4aede33c2061b28, type: 3}
+  m_Name: Blank Avatar Builder
+  m_EditorClassIdentifier: 
+  m_GraphModel:
+    rid: 4868919257275302008
+  references:
+    version: 2
+    RefIds:
+    - rid: 4868919257275302008
+      type: {class: ABuilderGraphModel, ns: Editor.Graph, asm: AvatarBuilder}
+      data:
+        m_AssetModel: {fileID: 11400000}
+        m_GraphNodeModels:
+        - rid: 4868919257275302009
+        m_EdgeModels: []
+        m_BadgeModels: []
+        m_GraphEdgeModels: []
+        m_PolymorphicEdgeModels: []
+        m_StickyNoteModels: []
+        m_GraphStickyNoteModels: []
+        m_PlacematModels: []
+        m_GraphPlacematModels: []
+        m_GraphVariableModels:
+        - rid: 4868919257275302054
+        m_GraphPortalModels: []
+        m_Name: 
+        m_StencilTypeName: Editor.Graph.ABuilderStencil, AvatarBuilder, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - rid: 4868919257275302009
+      type: {class: RootNode, ns: Editor.Nodes, asm: AvatarBuilder}
+      data:
+        m_Guid:
+          m_Value0: 981454410632654226
+          m_Value1: 5004363333085634004
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_Position: {x: -765.4, y: -728}
+        m_Title: Root
+        m_InputConstantsById:
+          m_KeyList: []
+          m_ValueList: []
+        m_State: 0
+        m_Collapsed: 0
+        Origin: {fileID: 0}
+    - rid: 4868919257275302054
+      type: {class: VariableDeclarationModel, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Guid:
+          m_Value0: 12044889426318032092
+          m_Value1: 1391500077936916374
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_Name: My Vector3 0
+        m_DataType:
+          Identification: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_IsExposed: 1
+        m_Tooltip: 
+        m_InitializationValue:
+          rid: 4868919257275302055
+        m_Modifiers: 4
+        variableFlags: 0
+    - rid: 4868919257275302055
+      type: {class: Vector3Constant, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Value: {x: 0, y: 0, z: 0}

@@ -1,0 +1,682 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5489afe110374609b4aede33c2061b28, type: 3}
+  m_Name: Blocky Avatar Builder
+  m_EditorClassIdentifier: 
+  m_GraphModel:
+    rid: 4868919257275301946
+  references:
+    version: 2
+    RefIds:
+    - rid: 4868919257275301946
+      type: {class: ABuilderGraphModel, ns: Editor.Graph, asm: AvatarBuilder}
+      data:
+        m_AssetModel: {fileID: 11400000}
+        m_GraphNodeModels:
+        - rid: 4868919257275301947
+        - rid: 4868919257275301948
+        - rid: 4868919257275301964
+        - rid: 4868919257275301968
+        - rid: 4868919257275301973
+        - rid: 4868919257275301977
+        - rid: 4868919257275301980
+        - rid: 4868919257275301991
+        - rid: 4868919257275301995
+        - rid: 4868919257275301999
+        m_EdgeModels: []
+        m_BadgeModels: []
+        m_GraphEdgeModels:
+        - rid: 4868919257275301949
+        - rid: 4868919257275301965
+        - rid: 4868919257275301969
+        - rid: 4868919257275301978
+        - rid: 4868919257275301981
+        - rid: 4868919257275301992
+        - rid: 4868919257275301996
+        - rid: 4868919257275302000
+        - rid: 4868919257275302001
+        m_PolymorphicEdgeModels: []
+        m_StickyNoteModels: []
+        m_GraphStickyNoteModels: []
+        m_PlacematModels: []
+        m_GraphPlacematModels:
+        - rid: 4868919257275302004
+        - rid: 4868919257275302005
+        - rid: 4868919257275302006
+        - rid: 4868919257275302007
+        m_GraphVariableModels: []
+        m_GraphPortalModels: []
+        m_Name: 
+        m_StencilTypeName: Editor.Graph.ABuilderStencil, AvatarBuilder, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - rid: 4868919257275301947
+      type: {class: RootNode, ns: Editor.Nodes, asm: AvatarBuilder}
+      data:
+        m_Guid:
+          m_Value0: 8094637629936288547
+          m_Value1: 4491891823219880382
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_Position: {x: -564.8, y: -695.60004}
+        m_Title: Root
+        m_InputConstantsById:
+          m_KeyList: []
+          m_ValueList: []
+        m_State: 0
+        m_Collapsed: 0
+        Origin: {fileID: 0}
+    - rid: 4868919257275301948
+      type: {class: CylinderNode, ns: Editor.Nodes, asm: AvatarBuilder}
+      data:
+        m_Guid:
+          m_Value0: 753557858469653216
+          m_Value1: 13440633425403879529
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_Position: {x: 1515.5281, y: 1058.7274}
+        m_Title: Cylinder
+        m_InputConstantsById:
+          m_KeyList:
+          - Local Position
+          - Size
+          m_ValueList:
+          - rid: 4868919257275301950
+          - rid: 4868919257275301951
+        m_State: 0
+        m_Collapsed: 0
+    - rid: 4868919257275301949
+      type: {class: EdgeModel, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Guid:
+          m_Value0: 9518124689368437470
+          m_Value1: 10295518116806476183
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_FromPortReference:
+          m_NodeModelGuid:
+            m_Value0: 8094637629936288547
+            m_Value1: 4491891823219880382
+          m_GraphAssetModel: {fileID: 11400000}
+          m_UniqueId: Origin
+        m_ToPortReference:
+          m_NodeModelGuid:
+            m_Value0: 753557858469653216
+            m_Value1: 13440633425403879529
+          m_GraphAssetModel: {fileID: 11400000}
+          m_UniqueId: Parent
+        m_EdgeControlPoints: []
+        m_EditMode: 0
+        m_EdgeLabel: 
+    - rid: 4868919257275301950
+      type: {class: Vector3Constant, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Value: {x: 0, y: 0, z: 0}
+    - rid: 4868919257275301951
+      type: {class: FloatConstant, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Value: 1
+    - rid: 4868919257275301964
+      type: {class: SphereNode, ns: Editor.Nodes, asm: AvatarBuilder}
+      data:
+        m_Guid:
+          m_Value0: 16148349428685966372
+          m_Value1: 18311737105216200354
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_Position: {x: 1551.1711, y: 757.7512}
+        m_Title: Sphere
+        m_InputConstantsById:
+          m_KeyList:
+          - Local Position
+          - Size
+          m_ValueList:
+          - rid: 4868919257275301966
+          - rid: 4868919257275301967
+        m_State: 0
+        m_Collapsed: 0
+    - rid: 4868919257275301965
+      type: {class: EdgeModel, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Guid:
+          m_Value0: 12946381732874098514
+          m_Value1: 15411867302924389379
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_FromPortReference:
+          m_NodeModelGuid:
+            m_Value0: 8094637629936288547
+            m_Value1: 4491891823219880382
+          m_GraphAssetModel: {fileID: 11400000}
+          m_UniqueId: Origin
+        m_ToPortReference:
+          m_NodeModelGuid:
+            m_Value0: 16148349428685966372
+            m_Value1: 18311737105216200354
+          m_GraphAssetModel: {fileID: 11400000}
+          m_UniqueId: Parent
+        m_EdgeControlPoints: []
+        m_EditMode: 0
+        m_EdgeLabel: 
+    - rid: 4868919257275301966
+      type: {class: Vector3Constant, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Value: {x: 0, y: 0.5, z: 0}
+    - rid: 4868919257275301967
+      type: {class: FloatConstant, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Value: 2
+    - rid: 4868919257275301968
+      type: {class: CircularArrayNode, ns: Editor.Nodes, asm: AvatarBuilder}
+      data:
+        m_Guid:
+          m_Value0: 12417497392397220852
+          m_Value1: 11888879118937773954
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_Position: {x: 915.32996, y: 1390.0986}
+        m_Title: CircularArray
+        m_InputConstantsById:
+          m_KeyList:
+          - Local Position
+          - Distance
+          - Count
+          m_ValueList:
+          - rid: 4868919257275301970
+          - rid: 4868919257275301971
+          - rid: 4868919257275301972
+        m_State: 0
+        m_Collapsed: 0
+    - rid: 4868919257275301969
+      type: {class: EdgeModel, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Guid:
+          m_Value0: 13006685658813802225
+          m_Value1: 5915137688407684475
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_FromPortReference:
+          m_NodeModelGuid:
+            m_Value0: 8094637629936288547
+            m_Value1: 4491891823219880382
+          m_GraphAssetModel: {fileID: 11400000}
+          m_UniqueId: Origin
+        m_ToPortReference:
+          m_NodeModelGuid:
+            m_Value0: 12417497392397220852
+            m_Value1: 11888879118937773954
+          m_GraphAssetModel: {fileID: 11400000}
+          m_UniqueId: Parent
+        m_EdgeControlPoints: []
+        m_EditMode: 0
+        m_EdgeLabel: 
+    - rid: 4868919257275301970
+      type: {class: Vector3Constant, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Value: {x: 0, y: -1, z: 0}
+    - rid: 4868919257275301971
+      type: {class: FloatConstant, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Value: 0.4
+    - rid: 4868919257275301972
+      type: {class: IntConstant, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Value: 8
+    - rid: 4868919257275301973
+      type: {class: CubeNode, ns: Editor.Nodes, asm: AvatarBuilder}
+      data:
+        m_Guid:
+          m_Value0: 12398731879300546693
+          m_Value1: 11244191518192356010
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_Position: {x: 2055.77, y: 1343.9927}
+        m_Title: Cube
+        m_InputConstantsById:
+          m_KeyList:
+          - Local Position
+          - Scale
+          m_ValueList:
+          - rid: 4868919257275301975
+          - rid: 4868919257275301976
+        m_State: 0
+        m_Collapsed: 0
+    - rid: 4868919257275301975
+      type: {class: Vector3Constant, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Value: {x: 0, y: 0.5, z: 0}
+    - rid: 4868919257275301976
+      type: {class: Vector3Constant, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Value: {x: 0.4, y: 1, z: 0.4}
+    - rid: 4868919257275301977
+      type: {class: RotateNode, ns: Editor.Nodes, asm: AvatarBuilder}
+      data:
+        m_Guid:
+          m_Value0: 189896552446496640
+          m_Value1: 5106579972684447058
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_Position: {x: 1320.7909, y: 24.556501}
+        m_Title: Rotate
+        m_InputConstantsById:
+          m_KeyList:
+          - Euler Angles
+          - Local Position
+          m_ValueList:
+          - rid: 4868919257275301979
+          - rid: 4868919257275301984
+        m_State: 0
+        m_Collapsed: 0
+    - rid: 4868919257275301978
+      type: {class: EdgeModel, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Guid:
+          m_Value0: 15303121851387933688
+          m_Value1: 4087882485983483741
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_FromPortReference:
+          m_NodeModelGuid:
+            m_Value0: 8094637629936288547
+            m_Value1: 4491891823219880382
+          m_GraphAssetModel: {fileID: 11400000}
+          m_UniqueId: Origin
+        m_ToPortReference:
+          m_NodeModelGuid:
+            m_Value0: 189896552446496640
+            m_Value1: 5106579972684447058
+          m_GraphAssetModel: {fileID: 11400000}
+          m_UniqueId: Parent
+        m_EdgeControlPoints: []
+        m_EditMode: 0
+        m_EdgeLabel: 
+    - rid: 4868919257275301979
+      type: {class: Vector3Constant, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Value: {x: -44.1, y: 0, z: 0}
+    - rid: 4868919257275301980
+      type: {class: CubeNode, ns: Editor.Nodes, asm: AvatarBuilder}
+      data:
+        m_Guid:
+          m_Value0: 15938543142889498565
+          m_Value1: 18132301154111135850
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_Position: {x: 1938.722, y: 37.86902}
+        m_Title: Cube
+        m_InputConstantsById:
+          m_KeyList:
+          - Local Position
+          - Scale
+          m_ValueList:
+          - rid: 4868919257275301982
+          - rid: 4868919257275301983
+        m_State: 0
+        m_Collapsed: 0
+    - rid: 4868919257275301981
+      type: {class: EdgeModel, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Guid:
+          m_Value0: 13348419426547990022
+          m_Value1: 7676613169200015055
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_FromPortReference:
+          m_NodeModelGuid:
+            m_Value0: 189896552446496640
+            m_Value1: 5106579972684447058
+          m_GraphAssetModel: {fileID: 11400000}
+          m_UniqueId: Object
+        m_ToPortReference:
+          m_NodeModelGuid:
+            m_Value0: 15938543142889498565
+            m_Value1: 18132301154111135850
+          m_GraphAssetModel: {fileID: 11400000}
+          m_UniqueId: Parent
+        m_EdgeControlPoints: []
+        m_EditMode: 0
+        m_EdgeLabel: 
+    - rid: 4868919257275301982
+      type: {class: Vector3Constant, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Value: {x: 0, y: 0.5, z: 0}
+    - rid: 4868919257275301983
+      type: {class: Vector3Constant, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Value: {x: 0.5, y: 1, z: 0.5}
+    - rid: 4868919257275301984
+      type: {class: Vector3Constant, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Value: {x: 0, y: 1, z: -0.1}
+    - rid: 4868919257275301991
+      type: {class: RotateNode, ns: Editor.Nodes, asm: AvatarBuilder}
+      data:
+        m_Guid:
+          m_Value0: 12146769428207815261
+          m_Value1: 2988352658236943114
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_Position: {x: 1351.0234, y: 349.6942}
+        m_Title: Rotate
+        m_InputConstantsById:
+          m_KeyList:
+          - Local Position
+          - Euler Angles
+          m_ValueList:
+          - rid: 4868919257275301993
+          - rid: 4868919257275301994
+        m_State: 0
+        m_Collapsed: 0
+    - rid: 4868919257275301992
+      type: {class: EdgeModel, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Guid:
+          m_Value0: 11543124350645125265
+          m_Value1: 1335968963269322696
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_FromPortReference:
+          m_NodeModelGuid:
+            m_Value0: 8094637629936288547
+            m_Value1: 4491891823219880382
+          m_GraphAssetModel: {fileID: 11400000}
+          m_UniqueId: Origin
+        m_ToPortReference:
+          m_NodeModelGuid:
+            m_Value0: 12146769428207815261
+            m_Value1: 2988352658236943114
+          m_GraphAssetModel: {fileID: 11400000}
+          m_UniqueId: Parent
+        m_EdgeControlPoints: []
+        m_EditMode: 0
+        m_EdgeLabel: 
+    - rid: 4868919257275301993
+      type: {class: Vector3Constant, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Value: {x: 0, y: 0.63, z: -0.8}
+    - rid: 4868919257275301994
+      type: {class: Vector3Constant, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Value: {x: 0, y: 0, z: 90}
+    - rid: 4868919257275301995
+      type: {class: CapsuleNode, ns: Editor.Nodes, asm: AvatarBuilder}
+      data:
+        m_Guid:
+          m_Value0: 543151770064499821
+          m_Value1: 16845975155650550722
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_Position: {x: 1881.7029, y: 358.1223}
+        m_Title: Capsule
+        m_InputConstantsById:
+          m_KeyList:
+          - Local Position
+          - Size
+          m_ValueList:
+          - rid: 4868919257275301997
+          - rid: 4868919257275301998
+        m_State: 0
+        m_Collapsed: 0
+    - rid: 4868919257275301996
+      type: {class: EdgeModel, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Guid:
+          m_Value0: 4793607912609695150
+          m_Value1: 8754428132113320360
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_FromPortReference:
+          m_NodeModelGuid:
+            m_Value0: 12146769428207815261
+            m_Value1: 2988352658236943114
+          m_GraphAssetModel: {fileID: 11400000}
+          m_UniqueId: Object
+        m_ToPortReference:
+          m_NodeModelGuid:
+            m_Value0: 543151770064499821
+            m_Value1: 16845975155650550722
+          m_GraphAssetModel: {fileID: 11400000}
+          m_UniqueId: Parent
+        m_EdgeControlPoints: []
+        m_EditMode: 0
+        m_EdgeLabel: 
+    - rid: 4868919257275301997
+      type: {class: Vector3Constant, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Value: {x: 0, y: 0, z: 0}
+    - rid: 4868919257275301998
+      type: {class: FloatConstant, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Value: 0.8
+    - rid: 4868919257275301999
+      type: {class: RotateNode, ns: Editor.Nodes, asm: AvatarBuilder}
+      data:
+        m_Guid:
+          m_Value0: 5568552554741343023
+          m_Value1: 18008408168043426730
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_Position: {x: 1503.877, y: 1372.0044}
+        m_Title: Rotate
+        m_InputConstantsById:
+          m_KeyList:
+          - Local Position
+          - Euler Angles
+          m_ValueList:
+          - rid: 4868919257275302002
+          - rid: 4868919257275302003
+        m_State: 0
+        m_Collapsed: 0
+    - rid: 4868919257275302000
+      type: {class: EdgeModel, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Guid:
+          m_Value0: 16387142447249602232
+          m_Value1: 12536007861899374398
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_FromPortReference:
+          m_NodeModelGuid:
+            m_Value0: 12417497392397220852
+            m_Value1: 11888879118937773954
+          m_GraphAssetModel: {fileID: 11400000}
+          m_UniqueId: Object
+        m_ToPortReference:
+          m_NodeModelGuid:
+            m_Value0: 5568552554741343023
+            m_Value1: 18008408168043426730
+          m_GraphAssetModel: {fileID: 11400000}
+          m_UniqueId: Parent
+        m_EdgeControlPoints: []
+        m_EditMode: 0
+        m_EdgeLabel: 
+    - rid: 4868919257275302001
+      type: {class: EdgeModel, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Guid:
+          m_Value0: 10532178456465192825
+          m_Value1: 17748934543144081020
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_FromPortReference:
+          m_NodeModelGuid:
+            m_Value0: 5568552554741343023
+            m_Value1: 18008408168043426730
+          m_GraphAssetModel: {fileID: 11400000}
+          m_UniqueId: Object
+        m_ToPortReference:
+          m_NodeModelGuid:
+            m_Value0: 12398731879300546693
+            m_Value1: 11244191518192356010
+          m_GraphAssetModel: {fileID: 11400000}
+          m_UniqueId: Parent
+        m_EdgeControlPoints: []
+        m_EditMode: 0
+        m_EdgeLabel: 
+    - rid: 4868919257275302002
+      type: {class: Vector3Constant, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Value: {x: 0, y: 0, z: 0}
+    - rid: 4868919257275302003
+      type: {class: Vector3Constant, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Value: {x: -124.1, y: 0, z: 0}
+    - rid: 4868919257275302004
+      type: {class: PlacematModel, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Guid:
+          m_Value0: 5789966552846726325
+          m_Value1: 16211149737440732325
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_Title: Body
+        m_Position:
+          serializedVersion: 2
+          x: 1506.3336
+          y: 1020.6669
+          width: 480.6667
+          height: 167.00003
+        m_Collapsed: 0
+        m_ZOrder: 1
+        m_HiddenElements: []
+    - rid: 4868919257275302005
+      type: {class: PlacematModel, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Guid:
+          m_Value0: 1102426122917115365
+          m_Value1: 868671939264908521
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_Title: Head
+        m_Position:
+          serializedVersion: 2
+          x: 1510.6669
+          y: 644.66675
+          width: 556.4315
+          height: 315.5071
+        m_Collapsed: 0
+        m_ZOrder: 2
+        m_HiddenElements: []
+    - rid: 4868919257275302006
+      type: {class: PlacematModel, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Guid:
+          m_Value0: 15030455645277618516
+          m_Value1: 14251793913258346632
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_Title: Legs
+        m_Position:
+          serializedVersion: 2
+          x: 906.3335
+          y: 1305.3335
+          width: 1622
+          height: 237.66663
+        m_Collapsed: 0
+        m_ZOrder: 3
+        m_HiddenElements: []
+    - rid: 4868919257275302007
+      type: {class: PlacematModel, ns: UnityEditor.GraphToolsFoundation.Overdrive.BasicModel,
+        asm: Unity.GraphTools.Foundation.Overdrive.Model}
+      data:
+        m_Guid:
+          m_Value0: 1284438421968233271
+          m_Value1: 8370166785588691539
+        m_AssetModel: {fileID: 11400000}
+        m_Color: {r: 0, g: 0, b: 0, a: 0}
+        m_HasUserColor: 0
+        m_Version: 1
+        m_Title: Eyes
+        m_Position:
+          serializedVersion: 2
+          x: 1260.2013
+          y: 311.3333
+          width: 1094.4656
+          height: 176.66663
+        m_Collapsed: 0
+        m_ZOrder: 4
+        m_HiddenElements: []
